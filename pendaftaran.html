@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran - Karnival POLYCC Mega 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>KARNIVAL POLYCC MEGA 2026</h1>
+        <p>ANJURAN JABATAN PENDIDIKAN POLITEKNIK DAN KOLEJ KOMUNITI (JPPKK)</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Utama</a>
+        <a href="pertandingan.html">Galeri Pertandingan</a>
+        <a href="pendaftaran.html">Pendaftaran</a>
+    </nav>
+
+    <div class="content-area">
+        <h2>Borang Pendaftaran Peserta</h2>
+        <p>Sila isi semua maklumat di bawah bagi tujuan pengesahan penyertaan anda dalam kategori pilihan:</p>
+        
+        <form action="#" method="POST">
+            
+            <div class="form-group">
+                <label for="nama">Nama Penuh Anda:</label>
+                <input type="text" id="nama" name="nama_peserta" placeholder="Masukkan nama mengikut kad pengenalan" required>
+            </div>
+
+            <div class="form-group">
+                <label for="umur">Umur (Wajib):</label>
+                <input type="number" id="umur" name="umur_peserta" placeholder="Contoh: 20" required>
+            </div>
+
+            <div class="form-group">
+                <label for="emel">Alamat E-mel Aktif:</label>
+                <input type="email" id="emel" name="emel_peserta" placeholder="nama_anda@contoh.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="kategori">Pilihan Kategori Pertandingan:</label>
+                <select id="kategori" name="kategori_pertandingan" required>
+                    <option value="">-- Sila Pilih Kategori Anda --</option>
+                    <option value="drone">Drone Competition</option>
+                    <option value="robotics">AI Robotics Competition</option>
+                    <option value="code">Code Design Competition</option>
+                    <option value="cooking">Cooking Competition</option>
+                    <option value="3dart">3D Sketch / 3D Art Competition</option>
+                </select>
+            </div>
+
+            <div class="form-group" style="margin-top: 25px;">
+                <button type="submit" name="hantar_pendaftaran">Hantar Pendaftaran</button>
+            </div>
+            
+        </form>
+    </div>
+
+    <footer>
+        <p>© 2026 Webiture Enterprise. Hak Cipta Terpelihara.</p>
+    </footer>
+
+</body>
+</html>
